@@ -51,6 +51,11 @@ class TestSelenium(object):
         wait = WebDriverWait(self.driver, timeout)
         return wait.until(EC.visibility_of_element_located((locatorType, locator)))
 
+    def wait_until_element_present(self, locatorType, locator, timeout=60):
+        locatorType = self.get_locator_type(locatorType)
+        wait = WebDriverWait(self.driver, timeout)
+        return wait.until(EC.presence_of_element_located((locatorType, locator)))
+
 
 
 
