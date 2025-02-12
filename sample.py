@@ -4,4 +4,5 @@ str="sample"
 print(str)
 print("hello")
 print("parthi")
-print("ranjith")
+print("kalai")
+print("subhash")
