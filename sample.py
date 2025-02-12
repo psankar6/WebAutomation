@@ -3,7 +3,4 @@ print("hello")
 str="sample"
 print(str)
 print("hello")
-print("test")
-print("i am validating something")
-print("Test")
-print("Test1")
+print("Guna")
