@@ -2,8 +2,8 @@
 print("hello")
 str="sample"
 print(str)
-print("Kovai")
-print("USA")
+str1="I am from salem"
+print(str1)
 print("hello")
 print("parthi")
 print("kalai")
