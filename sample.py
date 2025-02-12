@@ -2,7 +2,5 @@
 print("hello")
 str="sample"
 print(str)
-print("hello")
-print("parthi")
-print("kalai")
-print("subhash")
+print("Kovai")
+print("USA")
