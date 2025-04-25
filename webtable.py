@@ -8,6 +8,7 @@ import time
 driver = webdriver.Chrome()  # Or Firefox, Edge, etc.  Make sure you have the correct webdriver installed.
 driver.get("https://testautomationpractice.blogspot.com/")  # Replace with the URL of the page containing your table
 # c) By XPath (use with caution, can be brittle):
+driver.maximize_window()
 table = driver.find_element(By.XPATH, "//div[@class='column-center-inner']")  # Selects the first table on the page (less reliable)
 # ***It's crucial to use the most specific locator possible to avoid selecting the wrong table.***
 rows = table.find_elements(By.TAG_NAME, "tr")  # Find all rows (tr elements)
